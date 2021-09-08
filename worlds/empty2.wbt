@@ -1,0 +1,751 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.32024289745272405 -0.7021858829877176 -0.6359083836244364 2.4618000874863406
+  position -0.8140429657052248 3.141178328894138 0.8100004442047724
+}
+DEF Finish CardboardBox {
+  translation 0.79 0.05 -1.32
+  size 0.1 0.1 0.1
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+WoodenBox {
+  translation -1.88 0.08 -0.89
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.08 0.08 -0.89
+  name "wooden box(14)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.4 0.08 -0.24
+  name "wooden box(12)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.21 0.08 -0.24
+  name "wooden box(23)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.21 0.08 -0.04
+  name "wooden box(24)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.21 0.08 0.16
+  name "wooden box(25)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.21 0.08 0.36
+  name "wooden box(26)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.21 0.08 0.56
+  name "wooden box(27)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.21 0.08 0.76
+  name "wooden box(28)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.21 0.08 0.96
+  name "wooden box(52)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.01 0.08 0.96
+  name "wooden box(29)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.19 0.08 0.96
+  name "wooden box(30)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.39 0.08 0.96
+  name "wooden box(31)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.79 0.08 0.96
+  name "wooden box(32)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.59 0.08 0.96
+  name "wooden box(55)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.99 0.08 0.96
+  name "wooden box(33)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.19 0.08 0.96
+  name "wooden box(34)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.63 0.08 -0.11
+  name "wooden box(36)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.63 0.08 0.09
+  name "wooden box(57)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.63 0.08 0.29
+  name "wooden box(58)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.63 0.08 -0.31
+  name "wooden box(37)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.63 0.08 -0.51
+  name "wooden box(38)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.48 0.08 -0.89
+  name "wooden box(39)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.28 0.08 -0.89
+  name "wooden box(40)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.12 0.08 -0.89
+  name "wooden box(41)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.08 0.08 -0.89
+  name "wooden box(56)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.32 0.08 -0.89
+  name "wooden box(42)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.52 0.08 -0.89
+  name "wooden box(43)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.72 0.08 -0.89
+  name "wooden box(35)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.92 0.08 -0.89
+  name "wooden box(59)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.12 0.08 -0.89
+  name "wooden box(60)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.32 0.08 -0.89
+  name "wooden box(61)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.51 0.08 -0.89
+  name "wooden box(62)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.39 0.08 0.16
+  name "wooden box(63)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.39 0.08 0.96
+  name "wooden box(45)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.39 0.08 0.76
+  name "wooden box(46)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.39 0.08 0.56
+  name "wooden box(47)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.39 0.08 0.36
+  name "wooden box(48)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.39 0.08 -0.04
+  name "wooden box(64)"
+  size 0.2 0.2 0.2
+}
+DEF Supervisor Robot {
+  translation 0.1 0 0.1
+  children [
+    Emitter {
+      channel 1
+    }
+    Receiver {
+      channel 1
+    }
+  ]
+  name "Visor"
+  controller "SuperVis"
+  supervisor TRUE
+}
+DEF MyRob Robot {
+  translation -1.741242074334536 0.03955685078939314 1.0624025982781033
+  rotation -0.00016671209130193068 0.9999999166366094 -0.0003727383170155276 3.09519571667164
+  children [
+    Receiver {
+      translation -0.03 0.03 -0.08
+      children [
+        DEF Receiver Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      boundingObject USE Receiver
+      channel 1
+    }
+    Emitter {
+      translation 0.03 0.03 -0.08
+      children [
+        DEF Emitter_ Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      boundingObject USE Emitter_
+      channel 1
+    }
+    Compass {
+      translation 0 0.03 0.08
+      rotation 0 1 0 3.14159
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 0 0.5 0.5
+            }
+          }
+          geometry DEF Compass Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      boundingObject USE Compass
+    }
+    GPS {
+      translation 0 0.03 0.01
+      children [
+        DEF GPS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 0 0 1
+            }
+          }
+          geometry Cylinder {
+            height 0.01
+            radius 0.01
+          }
+        }
+      ]
+      boundingObject USE GPS
+    }
+    DistanceSensor {
+      translation -0.03 0 0.1
+      rotation 0 -1 0 1.8326
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds2"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.0500003 0 0.1
+      rotation 0 1 0 -2.8797953071795863
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds3"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.05 0 -1.73472e-18
+      rotation 0 1 0 3.14159
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "dsR"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.03 0 -0.1
+      rotation 0 -1 0 -2.094395307179586
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "dsB0"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.03 0 -0.1
+      rotation 0 -1 0 -1.047195307179586
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "dsB1"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.05 0 2.6536e-07
+      rotation 0 1 0 -5.307179586466759e-06
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "dsL"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.0499991 0 0.1
+      rotation 0 1 0 -0.2618053071795865
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds0"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.03 0 0.0999998
+      rotation 0 -1 0 1.309
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds1"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 31096.806176510396
+        anchor 0.06 0 0.05
+      }
+      device [
+        RotationalMotor {
+          name "left wheel 1"
+        }
+      ]
+      endPoint DEF Wheel1 Solid {
+        translation 0.060012783580980944 -6.238055786220636e-06 0.05001281349607117
+        rotation -0.4031971037587103 0.4031983127929874 -0.8215005879982535 4.517017518072413
+        children [
+          DEF Wheel Shape {
+            appearance Appearance {
+              material Material {
+                emissiveColor 0 1 0
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(1)"
+        boundingObject USE Wheel
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 31096.810498524632
+        anchor 0.06 0 -0.05
+      }
+      device [
+        RotationalMotor {
+          name "left wheel 2"
+        }
+      ]
+      endPoint DEF Wheel2 Solid {
+        translation 0.06002122363200568 2.4794332347041292e-05 -0.049995363405367504
+        rotation -0.4049520641252396 0.4046298858106163 -0.8199319979544617 4.515926893009246
+        children [
+          DEF Wheel Shape {
+            appearance Appearance {
+              material Material {
+                emissiveColor 0 1 0
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(3)"
+        boundingObject USE Wheel
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 33756.527012176026
+        anchor -0.06 0 0.05
+      }
+      device [
+        DEF wheel RotationalMotor {
+          name "right wheel 1"
+        }
+      ]
+      endPoint DEF Wheel3 Solid {
+        translation -0.0600214491901625 -1.981370238617145e-05 0.05001440574125102
+        rotation 0.6955104675901683 -0.6950645069835402 0.1820728442251453 2.7834240567485304
+        children [
+          DEF Wheel Shape {
+            appearance Appearance {
+              material Material {
+                emissiveColor 0 1 0
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(2)"
+        boundingObject USE Wheel
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 33756.53104389259
+        anchor -0.06 0 -0.05
+      }
+      device [
+        RotationalMotor {
+          name "right wheel 2"
+        }
+      ]
+      endPoint DEF Wheel4 Solid {
+        translation -0.06001523515198448 -5.586535993832232e-05 -0.04995452440973382
+        rotation 0.6956986171089988 -0.6952539419612557 0.180624999210966 2.786229628526603
+        children [
+          DEF Wheel Shape {
+            appearance Appearance {
+              material Material {
+                emissiveColor 0 1 0
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        boundingObject USE Wheel
+        physics DEF Wheel_PH Physics {
+        }
+      }
+    }
+    DEF Body Shape {
+      appearance Appearance {
+        material Material {
+          emissiveColor 1 0 0
+        }
+      }
+      geometry DEF Body Box {
+        size 0.1 0.05 0.2
+      }
+    }
+  ]
+  boundingObject USE Body
+  physics Physics {
+  }
+  controller "testCar"
+  linearVelocity 0.012543726387328822 0.001394233750377915 -0.040053760716877315
+  angularVelocity -0.0027064622972043507 0.5456625748829138 -0.00011465605163650384
+}
+WoodenBox {
+  translation 0.63 0.08 -0.7
+  name "wooden box(44)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.41 0.08 0.96
+  name "wooden box(1)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.61 0.08 0.96
+  name "wooden box(6)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.6 0.08 0.76
+  name "wooden box(7)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.6 0.08 0.56
+  name "wooden box(8)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.6 0.08 0.36
+  name "wooden box(9)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.6 0.08 0.16
+  name "wooden box(10)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.6 0.08 -0.24
+  name "wooden box(11)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.6 0.08 -0.04
+  name "wooden box(51)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.28 0.08 -0.89
+  name "wooden box(4)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.48 0.08 -0.89
+  name "wooden box(15)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.68 0.08 -0.89
+  name "wooden box(16)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.68 0.08 -0.89
+  name "wooden box(5)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.88 0.08 -0.89
+  name "wooden box(13)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.39 0.08 1.16
+  name "wooden box(2)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.39 0.08 0.96
+  name "wooden box(18)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.39 0.08 0.77
+  name "wooden box(19)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.39 0.08 0.57
+  name "wooden box(20)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.39 0.08 0.37
+  name "wooden box(21)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.39 0.08 0.17
+  name "wooden box(22)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.39 0.08 -0.03
+  name "wooden box(49)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -1.39 0.08 -0.23
+  name "wooden box(50)"
+  size 0.2 0.2 0.2
+}
+RectangleArena {
+  floorSize 4 3
+}
+WoodenBox {
+  translation -1.39 0.08 1.36
+  name "wooden box(17)"
+  size 0.2 0.2 0.2
+}

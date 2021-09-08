@@ -1,0 +1,418 @@
+#VRML_OBJ R2021a utf8
+DEF MyRob Robot {
+  translation -1.7258061484116747 0.03973980084160085 -0.04563253674198555
+  rotation -0.00028506681433236873 0.9999996481581328 0.0007889363231826737 3.0217931564767073
+  children [
+    Receiver {
+      translation -0.03 0.03 -0.08
+      children [
+        DEF Receiver Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      boundingObject USE Receiver
+      channel 1
+    }
+    Emitter {
+      translation 0.03 0.03 -0.08
+      children [
+        DEF Emitter_ Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      boundingObject USE Emitter_
+      channel 1
+    }
+    Compass {
+      translation 0 0.03 0.08
+      rotation 0 1 0 3.14159
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 0 0.5 0.5
+            }
+          }
+          geometry DEF Compass Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      boundingObject USE Compass
+    }
+    GPS {
+      translation 0 0.03 0.01
+      children [
+        DEF GPS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 0 0 1
+            }
+          }
+          geometry Cylinder {
+            height 0.01
+            radius 0.01
+          }
+        }
+      ]
+      boundingObject USE GPS
+    }
+    DistanceSensor {
+      translation -0.03 0 0.1
+      rotation 0 -1 0 1.8326
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds2"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.0500003 0 0.1
+      rotation 0 1 0 -2.8797953071795863
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds3"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.05 0 -1.73472e-18
+      rotation 0 1 0 3.14159
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "dsR"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation -0.03 0 -0.1
+      rotation 0 -1 0 -2.094395307179586
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "dsB0"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.03 0 -0.1
+      rotation 0 -1 0 -1.047195307179586
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "dsB1"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.05 0 2.6536e-07
+      rotation 0 1 0 -5.307179586466759e-06
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "dsL"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.0499991 0 0.1
+      rotation 0 1 0 -0.2618053071795865
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds0"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    DistanceSensor {
+      translation 0.03 0 0.0999998
+      rotation 0 -1 0 1.309
+      children [
+        DEF DS Shape {
+          appearance Appearance {
+            material Material {
+              emissiveColor 1 1 0
+            }
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds1"
+      boundingObject USE DS
+      physics Physics {
+      }
+      lookupTable [
+        0 0 0
+        0.3 1000 0
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 36155.648087962734
+        anchor 0.06 0 0.05
+      }
+      device [
+        RotationalMotor {
+          name "left wheel 1"
+        }
+      ]
+      endPoint DEF Wheel1 Solid {
+        translation 0.060012783580980944 -1.3842820750664302e-05 0.05000338752641656
+        rotation 0.6151746447817551 -0.6151767058956716 0.49306974855591323 2.2254196675280515
+        children [
+          DEF Wheel Shape {
+            appearance Appearance {
+              material Material {
+                emissiveColor 0 1 0
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(1)"
+        boundingObject USE Wheel
+        physics Physics {
+        }
+        linearVelocity -0.008535066045651622 8.698887162679295e-06 -0.02847468297129406
+        angularVelocity 0.0014708597676478252 0.33512289135644513 -0.011675980536336839
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 36155.65267641956
+        anchor 0.06 0 -0.05
+      }
+      device [
+        RotationalMotor {
+          name "left wheel 2"
+        }
+      ]
+      endPoint DEF Wheel2 Solid {
+        translation 0.06002122363200568 1.2268113572003485e-05 -0.04997796025599727
+        rotation 0.616181608613917 -0.6156914613972931 0.4911662137896202 2.2278516197242544
+        children [
+          DEF Wheel Shape {
+            appearance Appearance {
+              material Material {
+                emissiveColor 0 1 0
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(3)"
+        boundingObject USE Wheel
+        physics Physics {
+        }
+        linearVelocity 0.024812448641204833 1.4521072437705714e-05 -0.024493334343823704
+        angularVelocity 0.0014703187513647187 0.335122840627721 -0.01168002511524574
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 38075.602203749266
+        anchor -0.06 0 0.05
+      }
+      device [
+        DEF wheel RotationalMotor {
+          name "right wheel 1"
+        }
+      ]
+      endPoint DEF Wheel3 Solid {
+        translation -0.0600214491901625 7.87858484451322e-06 0.04997680439515584
+        rotation -0.47034895399720983 0.47141146158405495 0.7460181602085273 1.858525738907596
+        children [
+          DEF Wheel Shape {
+            appearance Appearance {
+              material Material {
+                emissiveColor 0 1 0
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        name "solid(2)"
+        boundingObject USE Wheel
+        physics Physics {
+        }
+        linearVelocity -0.003707067112955875 5.3582239514452884e-05 -0.06896077851147704
+        angularVelocity -1.9835250747816853 0.3370941280607572 -0.25667804767384567
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 38075.60640887751
+        anchor -0.06 0 -0.05
+      }
+      device [
+        RotationalMotor {
+          name "right wheel 2"
+        }
+      ]
+      endPoint DEF Wheel4 Solid {
+        translation -0.06001523515198448 1.9424160736418085e-05 -0.050069366200204295
+        rotation -0.4691236719079931 0.4701884272184984 0.7475599128935129 1.8565485670625597
+        children [
+          DEF Wheel Shape {
+            appearance Appearance {
+              material Material {
+                emissiveColor 0 1 0
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        boundingObject USE Wheel
+        physics DEF Wheel_PH Physics {
+        }
+        linearVelocity 0.029701978668121264 -8.44663735481865e-05 -0.06562537819941823
+        angularVelocity -1.9835256350317667 0.337094345521206 -0.2566822682819134
+      }
+    }
+    DEF Body Shape {
+      appearance Appearance {
+        material Material {
+          emissiveColor 1 0 0
+        }
+      }
+      geometry DEF Body Box {
+        size 0.1 0.05 0.2
+      }
+    }
+  ]
+  boundingObject USE Body
+  physics Physics {
+  }
+  controller "testCar"
+  linearVelocity 0.01051021249114784 1.2152239449433597e-05 -0.04694818834405297
+  angularVelocity -6.026479097471284e-05 0.3370488088295531 -1.7679054370378078e-05
+}
