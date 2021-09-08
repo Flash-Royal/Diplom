@@ -1,0 +1,13 @@
+#VRML_OBJ R2021a utf8
+Robot {
+  children [
+    Emitter {
+      channel 1
+    }
+    Receiver {
+      channel 1
+    }
+  ]
+  controller "SuperVis"
+  supervisor TRUE
+}

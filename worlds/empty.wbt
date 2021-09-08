@@ -1,0 +1,64 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.32089216524854486 0.8780075199001821 0.3551492830920986 4.482897133969682
+  position -3.921143233512944 4.2308946080719 -0.35944531607023705
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+DEF MyRob E-puck {
+  hidden position_0_0 109208.2077785243
+  hidden position_0_1 112338.49118450182
+  hidden rotation_1 1 0 0 6.119230871270312
+  hidden rotation_2 1 0 0 4.862107869184799
+  rotation -1.2548321835317364e-06 -0.9999999999974685 -1.867775286481234e-06 -2.064160413524205
+  controller "testEPEm"
+}
+WoodenBox {
+  translation 0 0.08 0.57
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.71 0.08 -0.37
+  name "wooden box(1)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 1.13 0.08 -1.26
+  name "wooden box(4)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0.71 0.08 -0.9
+  name "wooden box(5)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation 0 0.08 1.04
+  name "wooden box(2)"
+  size 0.2 0.2 0.2
+}
+WoodenBox {
+  translation -0.73 0.08 1.3
+  name "wooden box(3)"
+  size 0.2 0.2 0.2
+}
+Robot {
+  children [
+    Emitter {
+      channel 1
+    }
+    Receiver {
+      channel 1
+    }
+  ]
+  controller "testSVRec"
+  supervisor TRUE
+}
+RectangleArena {
+  floorSize 4 3
+}
